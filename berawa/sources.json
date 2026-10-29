@@ -1,0 +1,50 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.hoteldoscastillas-madrid.com/",
+ "read_at": "2026-10-29T10:47:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.hoteldoscastillas-madrid.com/",
+   "sha256": "9f34305bb62696c2ca8212796a0c5b564cfbe711fe7f3fa93d887908b5a6db19",
+   "chars": 2536
+  },
+  {
+   "url": "https://www.hoteldoscastillas-madrid.com/aviso-legal/",
+   "sha256": "6d20da0ca1f50f494e01e1ee38ec62a74b7c5e4e37523e1c076bb531cc233bf2",
+   "chars": 12571
+  },
+  {
+   "url": "https://www.hoteldoscastillas-madrid.com/habitaciones/",
+   "sha256": "f43e73462353af2a86e9674ea3a9ee2193d688015f9de9cb332e59fe2b5fb6df",
+   "chars": 1244
+  },
+  {
+   "url": "https://www.hoteldoscastillas-madrid.com/servicios/",
+   "sha256": "6bd44b430703168db2003ec2a3655e79c642011d9cfab37472a5d8c7de3baf5c",
+   "chars": 1688
+  },
+  {
+   "url": "https://www.hoteldoscastillas-madrid.com/situacion/",
+   "sha256": "99dddde95c1d3e893f08e7f55c981b708cbe91de11f4b8b9f904c9f2945c012d",
+   "chars": 2653
+  }
+ ],
+ "other_pages_read": [
+  "https://www.hoteldoscastillas-madrid.com",
+  "https://www.hoteldoscastillas-madrid.com/en/",
+  "https://www.hoteldoscastillas-madrid.com/en/3d-hotel/",
+  "https://www.hoteldoscastillas-madrid.com/en/cookies-policy/",
+  "https://www.hoteldoscastillas-madrid.com/en/legal-notice/",
+  "https://www.hoteldoscastillas-madrid.com/en/location/",
+  "https://www.hoteldoscastillas-madrid.com/en/offers/",
+  "https://www.hoteldoscastillas-madrid.com/en/privacy-policy/",
+  "https://www.hoteldoscastillas-madrid.com/en/rooms/",
+  "https://www.hoteldoscastillas-madrid.com/en/services/",
+  "https://www.hoteldoscastillas-madrid.com/fotos/",
+  "https://www.hoteldoscastillas-madrid.com/hotel-3d/",
+  "https://www.hoteldoscastillas-madrid.com/ofertas/",
+  "https://www.hoteldoscastillas-madrid.com/politica-de-cookies/",
+  "https://www.hoteldoscastillas-madrid.com/politica-de-privacidad/"
+ ]
+}

@@ -1,0 +1,448 @@
+{
+ "url": "http://127.0.0.1:43501/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Cómo son las habitaciones?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Su web describe las habitaciones como sencillas, cómodas y funcionales, pensadas para descansar en pleno centro. Presenta la habitación Está"
+    },
+    {
+     "q": "¿Qué equipamiento tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "La habitación Estándar tiene aire acondicionado, calefacción, TV, escritorio, teléfono, caja fuerte gratuita, minibar de pago y wifi gratuit"
+    },
+    {
+     "q": "¿Hay desayuno?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Cada mañana hay desayuno buffet con productos fríos y calientes, con alternativas para personas celíacas."
+    },
+    {
+     "q": "¿Hay restaurante?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "En el mismo edificio está la Taberna dNorte, gestionada por una empresa externa: cocina típica española inspirada en el norte de España, sob"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Hay parking público cercano al hotel; la reserva y el pago los hace directamente el cliente."
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Está en Abada, 7, 28013 Madrid, en pleno centro, a escasos metros de las estaciones de metro de Sol, Gran Vía y Callao."
+    },
+    {
+     "q": "¿Qué ver cerca?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "A pie: Puerta del Sol, 1 min; Gran Vía, 3 min; Plaza Mayor, 5 min; Palacio Real, 10 min; Museo del Prado, Reina Sofía y Thyssen-Bornemisza, "
+    },
+    {
+     "q": "¿Qué servicios tiene?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Ofrece desayuno buffet, recepción y atención personalizada con información práctica y recomendaciones, y wifi gratuito."
+    },
+    {
+     "q": "¿Qué ventajas tiene reservar en la web?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Reservando en su web ofrece late check-out bajo disponibilidad, sin gastos de gestión, ofertas exclusivas y mejor precio garantizado."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas de su web (botón Reservar) o escribir a reservas@hoteldoscastillas.com. Este asistente no confirma d"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono +34 915 24 97 50 y correo reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "¿Quién es el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Su aviso legal indica que el titular de la web es López y Talavera hoteles s.l., NIF B83669705, inscrita en el Registro Mercantil de Madrid "
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar en el motor de reservas de su web (botón Reservar) o escribir a reservas@hoteldoscastillas.com. Este asistente no confirma d"
+    },
+    {
+     "q": "¿Tienen gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "¿Hay piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    }
+   ],
+   "chips": [
+    "¿Cómo son las habitaciones?",
+    "¿Hay desayuno?",
+    "¿Hay parking?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "send",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Com són les habitacions?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "La seva web descriu les habitacions com a senzilles, còmodes i funcionals, pensades per descansar al bell mig del centre. Presenta l'habitac"
+    },
+    {
+     "q": "Quin equipament tenen les habitacions?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "L'habitació Estàndard té aire condicionat, calefacció, TV, escriptori, telèfon, caixa forta gratuïta, minibar de pagament i wifi gratuït; te"
+    },
+    {
+     "q": "Hi ha esmorzar?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Cada matí hi ha esmorzar bufet amb productes freds i calents, amb alternatives per a persones celíaques."
+    },
+    {
+     "q": "Hi ha restaurant?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Al mateix edifici hi ha la Taberna dNorte, gestionada per una empresa externa: cuina típica espanyola inspirada en el nord d'Espanya, sobret"
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Hi ha pàrquing públic a prop de l'hotel; la reserva i el pagament els fa directament el client."
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "És a Abada, 7, 28013 Madrid, al bell mig del centre, a pocs metres de les estacions de metro de Sol, Gran Vía i Callao."
+    },
+    {
+     "q": "Què es pot veure a prop?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "A peu: Puerta del Sol, 1 min; Gran Vía, 3 min; Plaza Mayor, 5 min; Palau Reial, 10 min; Museu del Prado, Reina Sofía i Thyssen-Bornemisza, 1"
+    },
+    {
+     "q": "Quins serveis té?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Ofereix esmorzar bufet, recepció i atenció personalitzada amb informació pràctica i recomanacions, i wifi gratuït."
+    },
+    {
+     "q": "Quins avantatges té reservar al web?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Reservant al seu web ofereix late check-out segons disponibilitat, sense despeses de gestió, ofertes exclusives i millor preu garantit."
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al motor de reserves del seu web (botó Reservar) o escriure a reservas@hoteldoscastillas.com. Aquest assistent no confirma dis"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telèfon +34 915 24 97 50 i correu reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Qui és el titular?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "El seu avís legal indica que el titular del web és López y Talavera hoteles s.l., NIF B83669705, inscrita al Registre Mercantil de Madrid (f"
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar al motor de reserves del seu web (botó Reservar) o escriure a reservas@hoteldoscastillas.com. Aquest assistent no confirma dis"
+    },
+    {
+     "q": "Teniu gimnàs?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Hi ha piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    }
+   ],
+   "chips": [
+    "Com són les habitacions?",
+    "Hi ha esmorzar?",
+    "Hi ha pàrquing?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "What are the rooms like?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Its website describes the rooms as simple, comfortable and functional, designed for resting right in the centre. It presents the Standard ro"
+    },
+    {
+     "q": "What equipment do the rooms have?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The Standard room has air conditioning, heating, TV, desk, telephone, a free safe, a paid minibar and free wifi; wooden floors and soundproo"
+    },
+    {
+     "q": "Is there breakfast?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Every morning there is a buffet breakfast with hot and cold products, with alternatives for people with coeliac disease."
+    },
+    {
+     "q": "Is there a restaurant?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "In the same building is Taberna dNorte, run by an external company: typical Spanish cooking inspired by northern Spain, especially the Basqu"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "There is a public car park near the hotel; guests book and pay for it directly."
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "It is at Abada, 7, 28013 Madrid, right in the centre, a few metres from Sol, Gran Vía and Callao metro stations."
+    },
+    {
+     "q": "What is there to see nearby?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "On foot: Puerta del Sol, 1 min; Gran Vía, 3 min; Plaza Mayor, 5 min; Royal Palace, 10 min; Prado, Reina Sofía and Thyssen-Bornemisza museums"
+    },
+    {
+     "q": "What services does it offer?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "It offers a buffet breakfast, reception and personal attention with practical information and recommendations, and free wifi."
+    },
+    {
+     "q": "What are the advantages of booking on the website?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Booking on its website gets you late check-out subject to availability, no booking fees, exclusive offers and a best price guarantee."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on the booking engine of its website (Book button) or email reservas@hoteldoscastillas.com. This assistant does not confirm ava"
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone +34 915 24 97 50 and email reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Who is the owner?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Its legal notice says the website owner is López y Talavera hoteles s.l., NIF B83669705, registered in the Madrid Commercial Registry (sheet"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book on the booking engine of its website (Book button) or email reservas@hoteldoscastillas.com. This assistant does not confirm ava"
+    },
+    {
+     "q": "Do you have a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Is there a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    }
+   ],
+   "chips": [
+    "What are the rooms like?",
+    "Is there breakfast?",
+    "Is there parking?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Comment sont les chambres ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Son site décrit les chambres comme simples, confortables et fonctionnelles, pensées pour se reposer en plein centre. Il présente la chambre "
+    },
+    {
+     "q": "Quel équipement ont les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "La chambre Standard dispose de la climatisation, du chauffage, d'une TV, d'un bureau, d'un téléphone, d'un coffre-fort gratuit, d'un minibar"
+    },
+    {
+     "q": "Y a-t-il un petit-déjeuner ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Chaque matin, un petit-déjeuner buffet avec des produits chauds et froids, avec des alternatives pour les personnes cœliaques."
+    },
+    {
+     "q": "Y a-t-il un restaurant ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Dans le même immeuble se trouve la Taberna dNorte, gérée par une entreprise externe : cuisine espagnole typique inspirée du nord de l'Espagn"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il y a un parking public près de l'hôtel ; la réservation et le paiement se font directement par le client."
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Il se trouve Abada, 7, 28013 Madrid, en plein centre, à quelques mètres des stations de métro Sol, Gran Vía et Callao."
+    },
+    {
+     "q": "Que voir à proximité ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "À pied : Puerta del Sol, 1 min ; Gran Vía, 3 min ; Plaza Mayor, 5 min ; Palais royal, 10 min ; musées du Prado, Reina Sofía et Thyssen-Borne"
+    },
+    {
+     "q": "Quels services propose-t-il ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Il propose un petit-déjeuner buffet, une réception et un accueil personnalisé avec des informations pratiques et des recommandations, et le "
+    },
+    {
+     "q": "Quels avantages à réserver sur le site ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "En réservant sur son site : late check-out selon disponibilité, sans frais de gestion, offres exclusives et meilleur prix garanti."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de son site (bouton Réserver) ou écrire à reservas@hoteldoscastillas.com. Cet assistant ne"
+    },
+    {
+     "q": "Quel est le numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone +34 915 24 97 50 et e-mail reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Qui est le titulaire ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Sa mention légale indique que le titulaire du site est López y Talavera hoteles s.l., NIF B83669705, inscrite au Registre du commerce de Mad"
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver sur le moteur de réservation de son site (bouton Réserver) ou écrire à reservas@hoteldoscastillas.com. Cet assistant ne"
+    },
+    {
+     "q": "Avez-vous une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    },
+    {
+     "q": "Y a-t-il une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 915 24 97 50 · reservas@hoteldoscastillas.com."
+    }
+   ],
+   "chips": [
+    "Comment sont les chambres ?",
+    "Y a-t-il un petit-déjeuner ?",
+    "Y a-t-il un parking ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
