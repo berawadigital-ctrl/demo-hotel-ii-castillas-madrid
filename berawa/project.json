@@ -1,0 +1,69 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-ii-castillas-madrid",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T10:55:00+01:00",
+ "updated_at": "2026-10-29T10:55:00+01:00",
+ "business": {
+  "name": "Hotel II Castillas",
+  "legal_name": "López y Talavera Hoteles S.L.",
+  "registry_ids": [
+   "CIF B-83669705",
+   "Registro Mercantil de Madrid, hoja M-334451"
+  ],
+  "url": "https://www.hoteldoscastillas-madrid.com/",
+  "domain": "hoteldoscastillas-madrid.com",
+  "municipality": "Madrid",
+  "province": "Madrid",
+  "address": "Abada, 7 · 28013 Madrid",
+  "phones": [
+   "+34 915 24 97 50"
+  ],
+  "emails": [
+   "reservas@hoteldoscastillas.com"
+  ],
+  "sector": "hotel en el centro de Madrid"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Madrid+II+Castillas/@40.4192202,-3.7043768,17z/data=!4m9!3m8!1s0xd42287dc0175d6b:0x6f438133e5ff563a!5m2!4m1!1i2!8m2!3d40.4192202!4d-3.7043768!16s%2Fg%2F11_qqn0l5",
+  "date": "2026-10-29T06:50:02+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": {
+   "es": "https://www.hoteldoscastillas-madrid.com/bookingstep1/",
+   "ca": "https://www.hoteldoscastillas-madrid.com/bookingstep1/",
+   "en": "https://www.hoteldoscastillas-madrid.com/bookingstep1/",
+   "fr": "https://www.hoteldoscastillas-madrid.com/bookingstep1/"
+  },
+  "note": "Las reservas van al motor de reservas del propio hotel (hoteldoscastillas-madrid.com/bookingstep1/, pagina del propio dominio que carga el componente de tarifas de Mirai del hotel, data-mirai-id 92443242; /booking/ redirige ahi); la demo no construye ningun motor. Titular contrastado con el Registro Mercantil de Madrid (hoja M-334451, la misma que cita su aviso legal)."
+ },
+ "audit_original": {
+  "url": "https://www.hoteldoscastillas-madrid.com/",
+  "date": "2026-10-29T10:45:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
